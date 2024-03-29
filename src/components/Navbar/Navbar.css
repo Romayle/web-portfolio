@@ -1,0 +1,32 @@
+.display-inline {
+    display: inline;
+}
+
+.margin-0px-10px {
+    margin: 0px 10px;
+}
+
+.margin-10px-0px {
+    margin: 10px 0px;
+}
+
+.display-flex-justify-content-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-blue {
+    color: #3B82F6;
+}
+
+.color-black {
+    color: #3B82F6;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.padding {
+    padding: 40px, 40px;
+}

@@ -1,0 +1,8 @@
+.Section1 {
+    display: flex;
+    padding: 0px 200px;
+}
+
+.About {
+    align-items: center;
+}
