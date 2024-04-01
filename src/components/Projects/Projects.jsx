@@ -3,9 +3,9 @@ import { Icon } from "@iconify/react";
 
 const Projects = () => {
     return (
-        <div className="mt-20">
+        <div className="h-screen lg:px-20 mt-20 lg:mx-20">
 
-            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-2xl'>
+            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-xl'>
                 <h2 className="font-bold text-lg md:text-xl text-blue-500 pb-4 text-left">A MOBILE APP FOR THE DEAF</h2>
                 <div className="flex sm:flex-row flex-col items-center gap-5">
                     <img class="w-64 h-auto object-contain" src="https://images.pexels.com/photos/1092671/pexels-photo-1092671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
@@ -17,7 +17,7 @@ const Projects = () => {
                 </div>
             </ul>
 
-            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-2xl'>
+            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-xl'>
                 <h2 className="font-bold text-lg md:text-xl text-blue-500 pb-4 text-left">A SHOPPING CART MANAGEMENT SYSTEM</h2>
                 <div className="flex sm:flex-row flex-col items-center gap-5">
                     <img class="w-64 h-auto object-contain" src="https://images.pexels.com/photos/236910/pexels-photo-236910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
@@ -29,7 +29,7 @@ const Projects = () => {
                 </div>
             </ul>
 
-            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-2xl'>
+            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-xl'>
                 <h2 className="font-bold text-lg md:text-xl text-blue-500 pb-4 text-left">A GALLERY WEBPAGE</h2>
                 <div className="flex sm:flex-row flex-col items-center gap-5">
                     <img class="w-64 h-auto object-contain" src="https://images.pexels.com/photos/1674049/pexels-photo-1674049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
@@ -41,7 +41,7 @@ const Projects = () => {
                 </div>
             </ul>
 
-            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-2xl'>
+            <ul className='bg-gray-100 mb-10 rounded-2xl p-5 drop-shadow-xl'>
                 <h2 className="font-bold text-lg md:text-xl text-blue-500 pb-4 text-left">WEB PORTFOLIO</h2>
                 <div className="flex sm:flex-row flex-col items-center gap-5">
                     <img class="w-64 h-auto object-contain" src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></img>
