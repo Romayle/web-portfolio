@@ -13,8 +13,8 @@ const About = () => {
                 </div>
 
                 <div className='text-left'>
-                    <p className='pb-3'>I pursuing graduation from SSBT, COET, JALGAON (425001). Most of my experience is in full stack web development and problem solving. Check out some of my workhere</p>
-                    <p>In my free time, I love to learn new technologies and keep up-to-date with full stack developement. Outside of programming, I love to read novels and watch animes. I learnt alot things from anime. My one of the most favourite character is Itachi Uchiha.</p>
+                    <p className='pb-3'>I have a strong passion for technology in the field of Software Development. My future ambitions and career goals is to become a full-stack / application developer with a particular focus on utilizing Machine Learning technology. </p>
+                    <p>I am confident that with the right opportunities, guidance and dedication that I can achieve my goals and make a meaningful impact in the industry.</p>
                 </div>
             
             </div>
