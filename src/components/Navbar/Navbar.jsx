@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from 'react';
 // import './Navbar.css';
 import { Outlet, Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 
 const Navbar = () => {
+  
+  const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
   return (
     <div className="fixed top-0 left-0 right-0 z-50 bg-white flex justify-between items-center gap-1 px-4 py-4">
 
@@ -34,9 +41,30 @@ const Navbar = () => {
         </div>
 
 
-      <div className="md:hidden">
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="2rem" width="2rem" xmlns="http://www.w3.org/2000/svg"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg>
-      </div>
+        <div className="md:hidden">
+            <Icon icon="material-symbols:menu" width="48" height="48" onClick={toggleMenu} />
+            {menuOpen && (
+                <div className="z-50 fixed top-0 right-0 bg-white px-10 h-screen items-center">
+                    <nav className="items-center md:flex">
+                    <Icon className='items-center' icon="material-symbols:close" width="32" height="32" onClick={toggleMenu} />
+                        <ul className="flex flex-col justify-between gap-10">
+                            <li>
+                                <Link to={"/"}>Home</Link>
+                            </li>
+                            <li>
+                                <Link to={"/about"}>About</Link>
+                            </li>
+                            <li>
+                                <Link to={"/projects"}>Projects</Link>
+                            </li>
+                            <li>
+                                <Link to={"/blogs"}>Blogs</Link>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            )}
+        </div>
 
     </div>
   );

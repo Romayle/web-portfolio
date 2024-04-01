@@ -5,7 +5,7 @@ const About = () => {
     return(
         <div className='h-screen justify-center items-center mt-20 mx-auto'>
             
-            <div className='flex flex-col md:flex-row items-center gap-10'>
+            <div className='flex flex-col sm:flex-row items-center gap-5'>
 
                 <div className='text-left'>
                     <h1 className='text-3xl font-bold sm:text-4xl pb-6'>Hello, I'm <span className='text-blue-500'>Romayle</span></h1>
@@ -19,8 +19,8 @@ const About = () => {
             
             </div>
 
-            <div className='py-12'>
-                <h1 className='text-3xl font-bold sm:text-4xl mb-8 text-blue-900'>Skills</h1>
+            <div className='pt-12 pb-2'>
+                <h1 className='text-3xl font-bold sm:text-4xl mb-8 text-blue-900 flex justify-center'>Skills</h1>
 
                 <div>
                     <ul className='bg-blue-50 flex gap-8 p-10 mb-5 items-center rounded-2xl flex-wrap'><span className='text-blue-500 text-2xl'>Frameworks</span>
