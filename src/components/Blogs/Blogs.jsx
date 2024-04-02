@@ -7,7 +7,7 @@ const Blogs = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-2xl text-left">
+                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-xl text-left">
                     <h2 className="font-bold text-xl">Exploring Git: Repositories, Discussion groups, Issues & Features</h2>
                     <img src="https://prasadchavan.me/images/posts/repo-dis-issue-git.png"></img>
                     <p className="pb-4">Posted on Oct 6, 2023</p>
@@ -15,7 +15,7 @@ const Blogs = () => {
                     <button className="bg-blue-900 text-white px-4 py-2 rounded">Read More</button>
                 </div>
 
-                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-2xl text-left">
+                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-xl text-left">
                     <h2 className="font-bold text-xl">Exploring Git: Repositories, Discussion groups, Issues & Features</h2>
                     <img src="https://prasadchavan.me/images/posts/gitbash.jpg"></img>
                     <p className="pb-4">Posted on Oct 6, 2023</p>
@@ -23,7 +23,7 @@ const Blogs = () => {
                     <button className="bg-blue-900 text-white px-4 py-2 rounded">Read More</button>
                 </div>
 
-                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-2xl text-left">
+                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-xl text-left">
                     <h2 className="font-bold text-xl">Exploring Git: Repositories, Discussion groups, Issues & Features</h2>
                     <img src="https://prasadchavan.me/images/posts/git.png"></img>
                     <p className="pb-4">Posted on Oct 6, 2023</p>
@@ -31,7 +31,7 @@ const Blogs = () => {
                     <button className="bg-blue-900 text-white px-4 py-2 rounded">Read More</button>
                 </div>
 
-                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-2xl text-left">
+                <div className="bg-gray-100 rounded-2xl p-10 drop-shadow-xl text-left">
                     <h2 className="font-bold text-xl">Exploring Git: Repositories, Discussion groups, Issues & Features</h2>
                     <img src="https://prasadchavan.me/images/posts/blogDjangomodels.jpg"></img>
                     <p className="pb-4">Posted on Oct 6, 2023</p>

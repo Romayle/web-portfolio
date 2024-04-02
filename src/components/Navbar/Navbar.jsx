@@ -45,10 +45,10 @@ const Navbar = () => {
         <div className="md:hidden">
             <Icon icon="material-symbols:menu" width="48" height="48" onClick={toggleMenu} />
             {menuOpen && (
-                <div className="z-50 fixed top-0 right-0 bg-white px-10 h-screen items-center">
-                    <nav className="items-center md:flex">
+                <div className="z-50 fixed top-0 right-0 bg-white px-10 h-screen items-center pt-10">
+                    <nav className="items-center flex-col gap-5 flex">
                     <Icon className='items-center' icon="material-symbols:close" width="32" height="32" onClick={toggleMenu} />
-                        <ul className="flex flex-col justify-between gap-10">
+                        <ul className="flex flex-col justify-between gap-10 items-center">
                             <li>
                                 <Link to={"/"}>Home</Link>
                             </li>
