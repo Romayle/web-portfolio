@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 z-50 bg-white flex justify-between items-center gap-1 px-4 py-4">
 
       <div className="flex">
-        <h1 className="font-bold text-base md:text-2xl">
+        <h1 className="font-bold text-xl md:text-2xl">
         <Link to={"/"}>Romayle<span className="text-blue-500">Dharmasena</span></Link></h1>
       </div>
 

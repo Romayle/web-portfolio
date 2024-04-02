@@ -20,25 +20,32 @@ const About = () => {
             </div>
 
             <div className='pt-12 pb-2'>
-                <h1 className='text-3xl font-bold sm:text-4xl mb-8 text-blue-900 flex justify-center'>Skills</h1>
+                <h1 className='text-3xl font-bold sm:text-4xl mb-4 md:mb-8 text-blue-900 flex justify-center'>Skills</h1>
 
                 <div>
-                    <ul className='bg-blue-50 flex gap-8 p-10 mb-5 items-center rounded-2xl flex-wrap'><span className='text-blue-500 text-2xl'>Frameworks</span>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:react" width="48" height="48" /><span>React</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="vscode-icons:file-type-tailwind" width="48" height="48" /><span>Tailwind</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:flutter" width="48" height="48" /><span>Flutter</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="bxl:flask" width="48" height="48" /><span>Flask</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="skill-icons:java-light" width="48" height="48" /><span>Java Swing</span></li>
+                    <ul className='bg-blue-50 flex p-5 md:p-10 mb-5 items-center rounded-2xl flex-col md:flex-row'>
+                        <span className='text-blue-500 text-2xl mb-5 md:mb-0'>Frameworks</span>
+                        <div className='flex gap-8 flex-wrap justify-center'>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:react" width="48" height="48" /><span>React</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="vscode-icons:file-type-tailwind" width="48" height="48" /><span>Tailwind</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:flutter" width="48" height="48" /><span>Flutter</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="bxl:flask" width="48" height="48" /><span>Flask</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="skill-icons:java-light" width="48" height="48" /><span>Java Swing</span></li>
+                        </div>
                     </ul>
 
-                    <ul className='bg-blue-50 flex gap-8 p-10 mb-5 items-center rounded-2xl flex-wrap'><span className='text-blue-500 text-2xl'>Languages</span>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="skill-icons:java-dark" width="48" height="48" /><span>Java</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:python" width="48" height="48" /><span>Python</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:html-5" width="48" height="48" /><span>HTML</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:css-3" width="48" height="48" /><span>CSS</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="tabler:brand-javascript" width="48" height="48" /><span>JavaScript</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="mdi:language-r" width="48" height="48" /><span>R</span></li>
-                        <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:dart" width="48" height="48" /><span>Dart</span></li>
+                    <ul className='bg-blue-50 flex p-5 md:p-10 mb-5 items-center rounded-2xl flex-col md:flex-row'>
+                        <span className='text-blue-500 text-2xl mb-5 md:mb-0'>Languages</span>
+                        <div className='flex gap-8 flex-wrap justify-center'>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="skill-icons:java-dark" width="48" height="48" /><span>Java</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:python" width="48" height="48" /><span>Python</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:html-5" width="48" height="48" /><span>HTML</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:css-3" width="48" height="48" /><span>CSS</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="tabler:brand-javascript" width="48" height="48" /><span>JavaScript</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="mdi:language-r" width="48" height="48" /><span>R</span></li>
+                            <li class=" text-xl font-bold flex justify-center items-center flex-col"><Icon icon="logos:dart" width="48" height="48" /><span>Dart</span></li>
+                        </div>
+                        
                     </ul>
 
                     <ul className='bg-blue-50 flex gap-8 p-10 mb-5 items-center rounded-2xl flex-wrap'><span className='text-blue-500 text-2xl'>Tools</span>
