@@ -50,16 +50,16 @@ const Navbar = () => {
                     <Icon className='items-center' icon="material-symbols:close" width="32" height="32" onClick={toggleMenu} />
                         <ul className="flex flex-col justify-between gap-10 items-center">
                             <li>
-                                <Link to={"/"}>Home</Link>
+                                <Link to={"/"} onClick={toggleMenu}>Home</Link>
                             </li>
                             <li>
-                                <Link to={"/about"}>About</Link>
+                                <Link to={"/about"} onClick={toggleMenu}>About</Link>
                             </li>
                             <li>
-                                <Link to={"/projects"}>Projects</Link>
+                                <Link to={"/projects"} onClick={toggleMenu}>Projects</Link>
                             </li>
                             <li>
-                                <Link to={"/blogs"}>Blogs</Link>
+                                <Link to={"/blogs"} onClick={toggleMenu}>Blogs</Link>
                             </li>
                         </ul>
                     </nav>

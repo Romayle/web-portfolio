@@ -3,7 +3,7 @@ import React from "react";
 const Blogs = () => {
     return(
         <div className="mt-20">
-            <h1 className="font-bold text-2xl mt-10 mb-10 justify-center flex">Favourite Stuffs</h1>
+            <h1 className="font-bold text-2xl mt-10 mb-3 justify-center flex">Favourite Stuffs</h1>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
