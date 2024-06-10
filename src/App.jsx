@@ -4,8 +4,6 @@ import About from './components/About/About'
 import Home from './components/Home/Home'
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects/Projects'
-import Blogs from './components/Blogs/Blogs'
-
 
 
 function App() {
@@ -13,10 +11,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/projects' element={<Projects />}></Route>
-        <Route path='/blogs' element={<Blogs />}></Route>
+        <Route path='/web-portfolio/' element={<Home />}/>
+        <Route path='/web-portfolio/about' element={<About />}/>
+        <Route path='/web-portfolio/projects' element={<Projects />}/>
       </Routes>
     </>
   )

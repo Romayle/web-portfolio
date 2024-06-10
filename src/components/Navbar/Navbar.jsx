@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// import './Navbar.css';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
 
 const Navbar = () => {
@@ -22,16 +21,13 @@ const Navbar = () => {
         <nav className="hidden items-center md:flex">
           <ul className="flex flex-row justify-between gap-10">
             <li className="">
-              <Link to={"/"}>Home</Link>
+              <Link to={"/web-portfolio/"}>Home</Link>
             </li>
             <li className="">
-              <Link to={"/about"}>About</Link>
+              <Link to={"/web-portfolio/about"}>About</Link>
             </li>
             <li className="">
-              <Link to={"/projects"}>Projects</Link>
-            </li>
-            <li className="">
-              <Link to={"/blogs"}>Blogs</Link>
+              <Link to={"/web-portfolio/projects"}>Projects</Link>
             </li>
           </ul>
         </nav>
