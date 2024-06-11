@@ -29,6 +29,9 @@ const Navbar = () => {
             <li className="">
               <Link to={"/web-portfolio/projects"}>Projects</Link>
             </li>
+            <li className="">
+              <Link to={"/web-portfolio/contact"}>Contact</Link>
+            </li>
           </ul>
         </nav>
 
@@ -55,7 +58,7 @@ const Navbar = () => {
                                 <Link to={"/web-portfolio/projects"} onClick={toggleMenu}>Projects</Link>
                             </li>
                             <li>
-                                <Link to={"/web-portfolio/blogs"} onClick={toggleMenu}>Blogs</Link>
+                                <Link to={"/web-portfolio/contact"} onClick={toggleMenu}>Contact</Link>
                             </li>
                         </ul>
                     </nav>

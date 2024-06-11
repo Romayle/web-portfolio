@@ -4,7 +4,7 @@ import Skill from './SkillPanel';
 
 const About = () => {
     return(
-        <div className='h-screen lg:px-20 mt-20 lg:mt-32 mx-auto'>
+        <div className='h-screen lg:px-20 mt-20 lg:mx-20 lg:mt-32'>
             
             <div className='flex flex-col sm:flex-row items-center gap-5'>
 
@@ -21,7 +21,7 @@ const About = () => {
             </div>
 
             <div className='pt-12 pb-2'>
-                <h1 className='text-3xl font-bold sm:text-4xl mb-4 md:mb-8 text-blue-900 flex justify-center'>Skills</h1>
+                <h1 className='text-3xl font-bold sm:text-4xl mb-4 md:mb-8 flex justify-center'>Skills</h1>
 
                 <div>
                     <ul className='bg-blue-50 flex p-5 md:p-10 mb-5 items-center rounded-2xl flex-col md:flex-row gap-8'>
